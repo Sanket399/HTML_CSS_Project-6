@@ -1,0 +1,141 @@
+@font-face {
+    font-family: organetto;
+    src: url(./Demo_Fonts/organetto.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ==============Navbar============= */
+
+
+body {
+    overflow-x: hidden;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+    align-items: center;
+    justify-items: center;
+    padding: 20px 0px;
+    font-family: Montserrat;
+}
+
+#navFirst > img {
+    display: block;
+}
+
+#navMid {
+    display: flex;
+    width: 650px;
+    font-size: 18px;
+    justify-content: space-between;
+    margin-right: 0px;
+}
+
+#navMid > div:first-child::after{
+    content: '';
+    position: absolute;
+    width: 55px;
+    height: 1.5px;
+    background-color: #0d0c0c;
+    margin-top: 2px;
+}
+
+#navEnd {
+    display: flex;
+    width: 170px;
+    justify-content: space-around;
+}
+
+#navEnd > div img {
+    display: block;
+}
+
+/* ==============Hero Section============= */
+#midWhole {
+    margin-left: 50px;
+    margin-top: 180px;
+}
+
+#monstera {
+    font-family: organetto;
+    font-size: 110px;
+}
+
+#midWholePart11>div>ul>li {
+    font-size: 20px;
+    font-family: Montserrat;
+    width: 50%;
+    list-style-type: none;
+}
+
+#midWholePart121 {
+    display: flex;   
+    align-items: center;
+    margin-top: 80px;
+    font-family: Montserrat;
+    margin-bottom: 50px;
+}
+
+
+#midWholePart121 > div:first-child{
+    padding: 10px 30px;
+    background-color: #466D50;
+    border-radius: 30px;
+    width: 200px;
+    color: #fff;
+}
+
+#midWholePart121 > div:last-child {
+    position: absolute;
+    margin-left: 220px;
+}
+
+#midWholePart121 > div:last-child > img {
+    display: block;
+    height: 22px;
+}
+
+
+#midWholePart13 {
+    display: flex;
+    width: 60%;
+}
+
+.midWholePart13Parts {
+    display: flex;
+    align-items: center;
+    height: 100px;
+    font-family: Montserrat;
+    font-size: 10px;
+    font-weight: 500; 
+    width: max-content;
+    margin-right: 10px;
+}
+
+.midWholePart13Parts img {
+    display: block;
+    margin-right: 9px;
+}
+
+.midWholePart13Parts h4 {
+    font-size: 20px;
+}
+
+/* ==============Main image============= */
+#imgMain {
+    width: 550px;
+}
+
+#midWhole>div:last-child {
+    position: absolute;         /* Main image div positioning */
+    z-index: -1;
+    right: 0;
+    top: 120px;
+}
+
+
